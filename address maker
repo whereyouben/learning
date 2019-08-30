@@ -1,0 +1,29 @@
+# address maker
+print "What's your first name?" 
+first_name = gets.chomp
+
+print "What's your middle name?"
+middle_name = gets.chomp
+
+print "What's your last name?"
+last_name = gets.chomp
+
+print "What's your address?"
+address = gets.chomp
+
+print "What's the city you live in?"
+city = gets.chomp
+
+print "What's the abreviation for your state?"
+state = gets.chomp
+
+print "What's your zip code?"
+zip_code = gets.chomp
+
+puts "Your address is,"
+puts " "
+puts "#{first_name.upcase} #{middle_name.upcase} #{last_name.upcase}"
+puts "#{address.upcase}"
+puts "#{city.upcase}, #{state.upcase} #{zip_code} "
+puts " "
+puts "This is your mailing address."
