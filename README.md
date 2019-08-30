@@ -1,1 +1,1 @@
-# mailing adress
+# mailing address
